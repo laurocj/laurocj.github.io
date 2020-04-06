@@ -16,6 +16,7 @@ body {
 h2.brand {
 	font-family: 'Selima', cursive;
 	font-size: 9rem;
+	margin-top: 5rem;
 }
 
 .font-plum {
@@ -29,10 +30,10 @@ h2.brand {
 /** head **/
 
 .cicle img {
-	width: 105px;
+	width: 145px;
 	position: absolute;
 	right: 25%;
-	top: 42px;
+	top: 6px;
 	z-index: -1;
 }
 
@@ -47,7 +48,7 @@ h2.brand {
 
 .wheel {
 	overflow: hidden;
-	height: 60vh;
+	height: 400px;
 	position: relative;
   }
 
@@ -66,12 +67,11 @@ h2.brand {
 	position: absolute;
     /* left: calc(50% - 17.5em); */
     background-color: rgba(250, 250, 230, 0.61);
-    top: calc(50% - 25vh);
+    top: calc(50% - 175px);
     border-radius: 50%;
-    height: 50vh;
-	/* width: 80%; */
+    height: 350px;
 	margin: 0 15px;
-    width: 95%;
+    width: 90%;
     z-index: 25;
 }
 
